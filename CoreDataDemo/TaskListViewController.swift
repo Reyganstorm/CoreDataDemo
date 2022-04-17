@@ -18,7 +18,15 @@ class TaskListViewController: UITableViewController {
     private func setupNavigationBar() {
         
         title = "Task List"
+        navigationController?.navigationBar.prefersLargeTitles = true
         
+        let navBarAppearance = UINavigationBarAppearance()
+        
+        navBarAppearance.backgroundColor = UIColor(red: 21/255, green: 101/255, blue: 194/255, alpha: 192/255)
+        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.standardAppearance = navBarAppearance
+        navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
     }
 }
 
