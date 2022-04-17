@@ -12,6 +12,7 @@
 		E82EE8E5280BFDF0006E3F67 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E82EE8E3280BFDF0006E3F67 /* CoreDataDemo.xcdatamodeld */; };
 		E82EE8E7280BFDF0006E3F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82EE8E6280BFDF0006E3F67 /* Assets.xcassets */; };
 		E82EE8EA280BFDF0006E3F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82EE8E8280BFDF0006E3F67 /* LaunchScreen.storyboard */; };
+		E82EE8F2280C15CC006E3F67 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EE8F1280C15CC006E3F67 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E82EE8E6280BFDF0006E3F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82EE8E9280BFDF0006E3F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E82EE8EB280BFDF0006E3F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82EE8F1280C15CC006E3F67 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E82EE8DA280BFDF0006E3F67 /* AppDelegate.swift */,
 				E82EE8DE280BFDF0006E3F67 /* TaskListViewController.swift */,
+				E82EE8F1280C15CC006E3F67 /* TaskViewController.swift */,
 				E82EE8E6280BFDF0006E3F67 /* Assets.xcassets */,
 				E82EE8E8280BFDF0006E3F67 /* LaunchScreen.storyboard */,
 				E82EE8EB280BFDF0006E3F67 /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E82EE8DF280BFDF0006E3F67 /* TaskListViewController.swift in Sources */,
+				E82EE8F2280C15CC006E3F67 /* TaskViewController.swift in Sources */,
 				E82EE8E5280BFDF0006E3F67 /* CoreDataDemo.xcdatamodeld in Sources */,
 				E82EE8DB280BFDF0006E3F67 /* AppDelegate.swift in Sources */,
 			);
