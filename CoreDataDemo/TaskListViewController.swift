@@ -58,7 +58,7 @@ class TaskListViewController: UITableViewController {
 //        taskVC.delegate = self
 //        present(taskVC, animated: true)
     }
-    
+
     private func fetchData() {
         let fetchRequest = Task.fetchRequest()
         
@@ -73,13 +73,13 @@ class TaskListViewController: UITableViewController {
         let alert = UIAlertController(title: tittle, message: message, preferredStyle: .alert)
         
         let saveAction = UIAlertAction(title: "Save", style: .default) { _ in
-            guard let task = alert.textFields?.first?.text, !task.isEmpty else { return}
+            guard let task = alert.textFields?.first?.text, !task.isEmpty else {return}
             self.save(task)
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .destructive)
         
-        alert.addAction(saveAction)
         alert.addAction(cancelAction)
+        alert.addAction(saveAction)
         alert.addTextField { textField in
             textField.placeholder = "New Task"
         }
